@@ -11,7 +11,8 @@ int main() {
     double latEsslingen = 48.738;
     double lonEsslingen = 9.311;
 
-    weather.getWeatherData(latEsslingen, lonEsslingen);
+    weather.getWeatherData(latEsslingen, lonEsslingen
+    );
     presenter.displayWeather(weather.getWeatherInfo(), "Esslingen University");
 
     // Lahaina, Hawaii  - coordinates
