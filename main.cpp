@@ -15,8 +15,8 @@ int main() {
     presenter.displayWeather(weather.getWeatherInfo(), "Esslingen University");
 
     // Lahaina, Hawaii  - coordinates
-    double latLahaina = 20.878;
-    double lonLahaina = -156.683;
+    const double latLahaina = 20.878;
+    const double lonLahaina = -156.683;
 
     weather.getWeatherData(latLahaina, lonLahaina);
     presenter.displayWeather(weather.getWeatherInfo(), "Lahaina, Hawaii");
